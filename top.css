@@ -39,15 +39,15 @@
 
 
   
-  display: inline-block;
-  width: 125px;
+  float: left;
+  display: block;
+  width: 100%;
   
   
   
   
   margin-left: 1px;
   margin-top: 50px;
-  
   
 
   
@@ -63,8 +63,9 @@
   color: aqua;
   border-radius: 25px;
   font-family: Orbitron;
-  font-size: 20px;
+  font-size: 40px;
   transition: background-color 1s;
+  width:300px;
   
 }
 
@@ -79,19 +80,43 @@
 
 }
 
+
+.news{
+
+  margin-top: 20px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.music{
+
+  font-family: Orbitron;
+  color: aqua;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  vertical-align: top;
+}
+
+.link{
+
+  color: aqua;
+}
+
 .content{
 
 
   
-  
+  margin-top: 50px;
   display: inline-block;
   color: aqua;
   font-family: Orbitron;
   font-size: 20px;
-  margin-left: 100px;
+  width: 100%;
   
   line-height: 30px;
-  margin-top: 10px;
+  
   
   
   

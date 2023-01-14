@@ -38,9 +38,9 @@
 .menu-bar{
 
 
-  
-  display: inline-block;
-  width: 125px;
+  float: left;
+  display: block;
+  width: 100%;
   
   
   
@@ -63,8 +63,10 @@
   color: aqua;
   border-radius: 25px;
   font-family: Orbitron;
-  font-size: 20px;
+  font-size: 40px;
   transition: background-color 1s;
+  width:300px;
+  margin-bottom: 20px;
   
 }
 
@@ -79,6 +81,29 @@
 
 }
 
+.news{
+
+  margin-top: 20px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.music{
+
+  font-family: Orbitron;
+  color: aqua;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  vertical-align: top;
+}
+
+.link{
+
+  color: aqua;
+}
+
 .content{
 
 
@@ -88,10 +113,10 @@
   color: aqua;
   font-family: Orbitron;
   font-size: 20px;
-  margin-left: 100px;
+  width: 100%;
   
   line-height: 30px;
-  margin-top: 10px;
+  margin-top: 30px;
   
   
   
@@ -180,10 +205,10 @@
   .menu-bar{
 
 
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     
-    width: 57px;
+    
+    width: 100%;
   
     margin-left: 1px;
     margin-top: 10px;
@@ -200,7 +225,8 @@
     color: aqua;
     border-radius: 25px;
     font-family: Orbitron;
-    font-size: 10px;
+    font-size: 50px;
+    width: 400px;
     transition: background-color 1s;
     
   }
