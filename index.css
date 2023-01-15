@@ -190,6 +190,26 @@
   
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.247);
+  color: aqua;
+  text-align: center;
+}
+
+.link-linkedin{
+
+  color: aqua;
+}
+
+.linkedin{
+
+  width: 0.9%;
+  
+}
 
 
 
