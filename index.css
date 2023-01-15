@@ -211,7 +211,10 @@
   
 }
 
+.hit-counter{
 
+  float: right;
+}
 
 
 @media screen and (max-width:800px){
