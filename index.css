@@ -26,7 +26,10 @@
 .chapter-image{
 
 
-  width: 15%;
+  width: inherit;
+  height: 100%;
+  
+  max-width: 600px;
   aspect-ratio: 16/9;
 }
 
