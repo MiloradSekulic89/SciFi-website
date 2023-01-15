@@ -216,6 +216,11 @@
   float: right;
 }
 
+.novels{
+
+  color: aqua;
+}
+
 
 @media screen and (max-width:800px){
 
