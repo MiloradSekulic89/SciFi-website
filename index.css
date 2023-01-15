@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  max-width: fit-content;
+  max-width: auto;
   min-height: 100vh;
   scale: 16/9;
 }
@@ -33,59 +33,64 @@
   
 }
 
-
-
-.menu-bar{
-
-
-  
-  float: left;
-  display: block;
-  width: 100%;
-  
-  
-  
-  
-  margin-left: 1px;
-  margin-top: 50px;
-  
-
-  
-}
-
-.button-menu{
-
-  
-  box-sizing: content-box;
-  
-  background-color: rgba(255, 166, 0, 0.068);
-  border-color: rgba(255, 166, 0, 0.041);
+.dropbtn {
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 15%;
   color: aqua;
-  border-radius: 25px;
-  font-family: Orbitron;
+  padding: 2px;
   font-size: 40px;
+  width: 50px;
+  border: none;
   transition: background-color 1s;
-  width:300px;
-  margin-bottom: 40px;
-  margin-right: 60px;
+  
   
 }
 
-
-
-.button-menu:hover{
-
-  background-color: rgb(255, 145, 72);
-  border-color: aqua;
-  border-width: 2px;
+.dropdown {
+  position: relative;
+  display: inline-block;
   
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: ease-in-out;
+  
+}
+
+.dropdown-content a {
+  color: aqua;
+  padding: 12px 16px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  transition: ease-in-out;
+  
+}
+
+.dropdown:hover .dropbtn {
+  
+  background-color: black;
 
 }
+
+.dropdown:hover .dropdown-content{
+
+  display: block;
+}
+
 
 
 .news{
 
-  margin-top: 20px;
+  
   width: 100%;
   display: inline-block;
   margin-bottom: 10px;
