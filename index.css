@@ -192,9 +192,9 @@
 
 .footer {
   position: fixed;
-  left: 0;
+  left: 1000px;
   bottom: 0;
-  width: 100%;
+  width: 50%;
   background-color: rgba(0, 0, 0, 0.247);
   color: aqua;
   text-align: center;
